@@ -1,28 +1,34 @@
+/* defaults */
 nav, aside {
   display: none;
 }
+
+
+/* header */
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
   align-items: center;
-  padding: 0.5rem 1rem;
+  height: 20%;
+  padding: 10px 10px;
 }
+
 header h1 {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 0.5rem;
+  margin-left: 15px;
   text-align: left;
-  flex-grow: 1;
-  font-size: 3.2rem;
+  font-size: 40px;
 }
-.menu-logo{
-  width: 64px;
-  height: 64px;
+
+.menu-logo {
+  width: auto;
+  height: auto;
 }
+
 .menu-icon {
   width: 50px;
   height: 50px;
 }
+
 .menu-icon:hover {
   opacity: 0.7;
 }
