@@ -32,3 +32,15 @@ header h1 {
 .menu-icon:hover {
   opacity: 0.7;
 }
+
+/* main-mobile */
+main {
+  height:60%;
+  width: 100%;
+}
+
+
+
+
+
+
