@@ -1,6 +1,7 @@
 @media (max-width: 800px) {
   :root {
     --header-height: 70px;
+    --top-nav-height: 30px;
   }
   /* header */
 header {
@@ -38,4 +39,10 @@ header .menu-icon {
   display: grid;
   place-items: center;
 }
+  nav,aside{
+    display: none;
+  }
+  main {
+    width: 100%;
+  }
 }
