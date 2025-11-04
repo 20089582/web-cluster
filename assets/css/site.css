@@ -96,5 +96,20 @@ header h1 {
 header .menu-icon {
   display: none;
 }
-
+nav {
+    position: sticky;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    top:var(--header-height);
+    background-color: white;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 40px;
+  }
+  nav ul li{
+    padding: 0px 40px;
+  }
 }
