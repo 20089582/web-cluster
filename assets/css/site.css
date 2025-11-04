@@ -112,4 +112,8 @@ nav {
   nav ul li{
     padding: 0px 40px;
   }
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
