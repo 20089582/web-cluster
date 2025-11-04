@@ -1,9 +1,11 @@
 @media (max-width: 800px) {
-
   :root {
   --header-height: 70px;
   --top-nav-height: 30px;
   --bottom-footer-height: 60px;
+}
+  nav,aside{
+  display: none;
 }
   /* header */
   header {
@@ -41,4 +43,9 @@
   display: grid;
   place-items: center;
 }
+
+main {
+  width: 100%;
+}
+
 }
