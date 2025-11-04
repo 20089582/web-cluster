@@ -44,8 +44,16 @@
   place-items: center;
 }
 
+/* main */
 main {
   width: 100%;
 }
 
+/* footer */
+footer {
+  position: sticky;
+  height: auto;
+  bottom: 0px;
+  background-color: white;
+}
 }
