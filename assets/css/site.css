@@ -1,4 +1,10 @@
 @media (max-width: 800px) {
+footer {
+  position: sticky;
+  height: auto;
+  bottom: 0px;
+  background-color: white;
+}
   :root {
     --header-height: 70px;
     --top-nav-height: 30px;
